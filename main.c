@@ -44,6 +44,9 @@ int main () {
         switch (opt) {
             case 1: // Mapa de assentos
                 // "\t" Serve como tabulação, então ele deixa organizado o número dos assentos
+
+                printf("Legenda: 0 = livre e 1 = reservado.\n");
+                
                 printf("Assento\t\t"); printf("1\t"); printf("2\t"); printf("3\t"); printf("4\t"); printf("5\n");
                 printf("--------------------------------------------------\n");
 
